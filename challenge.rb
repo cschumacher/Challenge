@@ -45,9 +45,8 @@ def addVariants(word)
 	end
 end
 
-subVariants "zoo"
-rmVariants "zoo"
-addVariants "zoo"
-puts $ret
-
+def findNetwork(word)
+	$ret[word] = word
+	
+end
 
